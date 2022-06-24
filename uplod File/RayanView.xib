@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RayanSignatureView" customModule="uplod_File" customModuleProvider="target">
+            <connections>
+                <outlet property="RayanImage" destination="GRk-fx-Ysv" id="LXS-RW-kts"/>
+                <outlet property="contentView1" destination="iN0-l3-epB" id="2xP-TN-l4m"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="200" height="65"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="GRk-fx-Ysv">
+                    <rect key="frame" x="10" y="10" width="180" height="45"/>
+                    <accessibility key="accessibilityConfiguration">
+                        <bool key="isElement" value="YES"/>
+                    </accessibility>
+                </imageView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="GRk-fx-Ysv" secondAttribute="bottom" constant="10" id="27R-qF-0WN"/>
+                <constraint firstItem="GRk-fx-Ysv" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="LRA-ap-mt6"/>
+                <constraint firstItem="GRk-fx-Ysv" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="R4h-JE-pS6"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="GRk-fx-Ysv" secondAttribute="trailing" constant="10" id="b47-M1-nIx"/>
+                <constraint firstItem="GRk-fx-Ysv" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="f2N-VR-iLT"/>
+                <constraint firstItem="GRk-fx-Ysv" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="10" id="i7w-AV-9QF"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-70.28985507246378" y="-138.95089285714286"/>
+        </view>
+    </objects>
+</document>
